@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Avneesh</div>
+      <button class="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="home">
+      <div class="hero">
+        <p class="hero-greeting">Hi, my name is</p>
+        <h1>Avneesh</h1>
+        <h2>I build things for the web.</h2>
+        <p class="hero-desc">
+          I'm a web developer specializing in building exceptional and premium
+          websites.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="primary-btn">View My Work</a>
+          <a href="#contact" class="secondary-btn">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Hello! I'm a passionate developer who loves creating things that
+            live on the internet. My journey in development started with simpler websites
+            , where I explored basic HTML and CSS. Over time, I
+            expanded into android development, UI/UX design, and even some machine
+            learning projects, integrating AI into creative solutions. From
+            building websites to android apps, I enjoy bringing
+            ideas to life through clean and functional code.
+          </p>
+          <ul class="skills-list">
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Next.js</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Kotlin</li>
+            <li>Jetpack Compose</li>
+            <li>Firebase</li>
+            <li>MongoDB</li>
+            <li>FastAPI</li>
+          </ul>
+        </div>
+        <div class="about-image">
+          <img src="Avneesh.jpg" alt="Profile picture" />
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title">Some Things I've Built</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="949675d7-3c6b-416d-9379-ba3c9a073e6a.png" alt="Project 1" />
+          <h3>Branding agency website</h3>
+          <p>
+            A full-stack informative website for a branding agency that includes
+            homepage, about, services and contact page.
+          </p>
+          <div class="project-tech">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Tailwind</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/avneesh" class="github-link">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://upsight.in" class="external-link">
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="fbd5ff33-2712-4f9d-98d0-794d96000e4e.jpeg" alt="Project 2" />
+          <h3>Task Management App</h3>
+          <p>
+            A collaborative task management application with real-time updates and categorisation of tasks for seamless productivity..
+          </p>
+          <div class="project-tech">
+            <span>Kotlin</span>
+            <span>Firebase</span>
+            <span>Jetpack Compose</span>
+          </div>
+          <div class="project-links">
+            <a
+              href="https://github.com/yourusername/project2"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub Repository"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://project2-demo.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Live Demo"
+            >
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="8164340c-5b4a-4173-b43b-60bdfb7e37bd.jpeg" alt="Project 3" />
+          <h3>Mood-Based Music Recommendation System</h3>
+          <p>
+            An intelligent AI model that recommends songs based on the user's mood expressed in text and also by detecting the facial expressions.
+          </p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>TensorFlow</span>
+            <span>Spotify API</span>
+          </div>
+          <div class="project-links">
+            <a
+              href="https://github.com/yourusername/project3"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub Repository"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://project3-demo.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Live Demo"
+            >
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-desc">
+        I'm currently looking for new opportunities. Whether you have a question
+        or just want to say hi, I'll try my best to get back to you!
+      </p>
+      <form id="contact-form">
+        <div class="form-group">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Message"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="primary-btn">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="social-links">
+        <a
+          href="https://github.com/yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://linkedin.com/in/yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a
+          href="https://twitter.com/yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+      <p>Designed & Built by Avneesh</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      // Mouse move effect for project cards
+      document.addEventListener("mousemove", (e) => {
+        document.querySelectorAll(".project-card").forEach((card) => {
+          const rect = card.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+
+          card.style.setProperty("--mouse-x", `${x}px`);
+          card.style.setProperty("--mouse-y", `${y}px`);
+        });
+      });
+
+      // Ensure DOM is loaded
+      document.addEventListener("DOMContentLoaded", function () {
+        // Your existing inline script code
+      });
+    </script>
+  </body>
+</html>
